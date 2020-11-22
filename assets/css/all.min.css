@@ -1,0 +1,22 @@
+/*assets/fonts/fonts.ttf below created by me Michail Markou*/
+
+.mich{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}
+
+.font-anchor:before{content:"\f000"}/*ok*/
+.font-database:before{content:"\f001"}
+.font-dice:before{content:"\f002"}
+.font-download:before{content:"\f003"}
+.font-draw-polygon:before{content:"\f004"}
+.font-ellipsis-v:before{content:"\f005"}
+.font-envelope:before{content:"\f006"}
+.font-eye:before{content:"\f007"}
+.font-home:before{content:"\f008"}
+.font-map-marker:before{content:"\f009"}
+.font-paper-plane:before{content:"\f00a"}
+.font-phone:before{content:"\f00b"}
+.font-user:before{content:"\f00c"}
+/*f00d <- king fooe <- queen for future use*/
+
+@font-face{font-family:"Fonts";font-style:normal;font-weight:900;font-display:block;
+    src:url(../fonts/fonts.ttf) format("truetype")}
+    .mich{font-family:"Fonts"}.mich{font-weight:900}

@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- this Site is about Blog P2P Network Training Platform-->
+<head>
+  <!--Checks if user has Static page Loaded or uses Http-server via URL check-->
+  <!--Checks for Broswer if it's chrome-->
+  <!--Adjusted to work BEST in CHROME && FIREFOX only-->
+  <script>var URI = document.location.href;  
+    var isChrome = !!window.chrome;// Chrome 1 - 71
+  </script>
+
+<!-- deploy Google Analytics add Google Search Console to Index Page !!!! SOS Below -->
+
+    <!-- Google Tag Manager-->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-xxxxxxxx');</script>
+      <!-- End Google Tag Manager -->
+
+      <!-- Primary Meta Tags -->
+    <title>1337</title>
+    <meta charset="utf-8">
+    <meta name="title" content="1337">
+    <meta name="description" content="Reverse Engineer, Game Developer-artist making tutorials.">
+    <meta name="google-site-verification" content="ID goes here you get it from Google Search Console Verification" />
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta http-equiv="onion-location" content="http://myexamjognehfweihje7gbzrewxee3vyu6ex37ukyvdw6jm66npakiyd.onion/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://myexample.xor">
+    <meta property="og:title" content="1337">
+    <meta property="og:description" content="Reverse Engineer, Game Developer-artist making tutorials.">
+    <meta property="og:image" content="https://myexample.xor//path//assets//img//archviz.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://myexample.xor">
+    <meta property="twitter:title" content="1337">
+    <meta property="twitter:description" content="Reverse Engineer, Game Developer-artist making tutorials.">
+    <meta property="twitter:image" content="https://myexample.xor//path//assets//img//archviz.jpg">
+
+    <!--The above is an illustration how to deploy proper Social Media sharing + Search Indexing SEO rankings-->
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Michail Markou",
+    "url": "https://<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Michail Markou",
+    "url": "myexample.xor",
+    "image": "https://scontent.fskg1-2.fna.fbcdn.net/v/t1.0-9/67603228_2838097346205647_8572879676299542528_o.jpg?_nc_cat=106&_nc_sid=174925&_nc_ohc=IadRgoGuMG0AX9prwxB&_nc_ht=scontent.fskg1-2.fna&oh=0fc41eea7e458bb1bc37b312ea612fd5&oe=5F70B16E",
+    "sameAs": [
+      "https://www.facebook.com/Jotun.Michael",
+      "https://www.instagram.com/marcus.jotun",
+      "https://www.youtube.com/user/NitrousUp",
+      "https://www.linkedin.com/in/michail-markou-27393b168/",
+      "https://gr.pinterest.com/mixailblackace",
+      "https://github.com/JotunMichael",
+      "https://michailkalinx.blogspot.com/"
+    ]  
+  }
+</script>
+
+<link rel="canonical" href="https://www.myexample.xor" />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/all.min.css">
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;}
+.m-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.m-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 479px){#anim { width: 90%; }}
+.container { position: relative;}
+canvas.emscripten { border: 4px silver;height:30%; width:30%; display: block;}
+p.startButton { text-align: center;background-color: #4c7aff; font-family: Sans-Serif; padding: 70px;}
+.sticky { position: fixed; top: 0; width: 100%; z-index: 1;}
+
+/* width 
+Custom scrollbars are not supported in Firefox or IE/Edge.
+*/
+::-webkit-scrollbar { width: 10px;}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {/*background: red;*/ border-radius: 10px;}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {background: linear-gradient(to top, #008aff, #00ffe7); }
+#scrollPath
+{position: fixed; top: 0; right: 0; width: 10px; height: 100%; background: rgba(255, 255, 255, 0.05);}
+#progressbar { position: fixed; top: 0; right: 0; width: 10px;
+height: 100%;background: linear-gradient(to top, #008aff, #00ffe7);animation: animate 5s linear infinite;}
+@keyframes animate{ 0%, 100%{ filter: hue-rotate(0deg);} 50%{ filter: hue-rotate(360deg);}}
+#progressbar:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; background: linear-gradient(to top, #008aff, #00ffe7); filter: blur(10px);}
+#progressbar:after{ content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, #008aff, #00ffe7); filter: blur(30px);}
+#percent {position: fixed; top: 50%; right: 15px; transform: translateY(-50%) rotateX(180deg) rotateY(180deg); color: #fff; font-size: 2em; writing-mode: vertical-rl; text-orientation: sideways;}
+@media all and (max-width: 1900px) { #percent { display: none; }}
+@media only screen and (max-width: 650px){
+#vid{position: relative; left: -20%; margin: auto;} #scrollPath{z-index: 1000; position: relative;}}
+</style>
+</head>
+
+<body class="m-black">
+  <div id="progressbar"></div> <div id="scrollPath"></div> <div id="percent"></div>
+  <div class="topnav" id="myHeader" style="z-index: 1;">
+    <div class="topnav-centered m-hide-small m-center m-bar-block">
+      <span id="appear" style="font-size:22px;cursor:pointer; visibility: hidden;" onclick="openNav()">&#9776; Open-Side</span>
+     <a class="active" href="#home">Home</a>
+      <a href="News.html">News</a>
+      <a href="blog.html">blog</a>
+      <a href="Premium-Upgrade.html">Premium-Upgrade</a>
+      <a href="Help.html">Help</a>
+  </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+<script>
+          var logos = document.getElementById('canvas');
+          var heightRatio = 0.1;
+          logos.style.position='absolute';
+          logos.style.top="120px";
+          logos.style.right="30px";
+
+
+</script>
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="m-sidebar m-bar-block m-small m-hide-small m-center" id="myNav">
+  <!-- Avatar image in top left corner -->
+  <img src="assets/img/unkown.jpg" style="width:100%" alt="Me">
+  <a href="#" class="m-bar-item m-button m-padding-large m-black">
+    <i class="mich font-home m-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="m-bar-item m-button m-padding-large m-hover-black">
+    <i class="mich font-user m-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="m-bar-item m-button m-padding-large m-hover-black">
+    <i class="mich font-eye m-xxlarge"></i>
+    <p>DOWNLOADS</p>
+  </a>
+  <a href="#contact" class="m-bar-item m-button m-padding-large m-hover-black">
+    <i class="mich font-envelope m-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <a href="approval.html" class="m-bar-item m-button m-padding-large m-hover-black">
+    <i class="mich font-anchor m-xxlarge"></i>
+    <p>APPROVAL</p>
+  </a>
+  <a href="javascript:void(0)" class="m-bar-item m-button m-padding-large m-hover-black" onclick="closeNav()">&#9776;>
+    <p>Hide bar</p>
+  </a>
+</nav>
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "120px";
+    document.getElementById("appear").style.visibility = "hidden";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+    document.getElementById("appear").style.visibility = "visible";
+  }
+  </script>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="m-top m-hide-large m-hide-medium" id="myNavbar">
+  <div class="m-bar m-black m-opacity m-hover-opacity-off m-center m-small">
+    <a href="#" class="m-bar-item m-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="m-bar-item m-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="m-bar-item m-button" style="width:25% !important">DOWNLOADS</a>
+    <a href="#contact" class="m-bar-item m-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content-->
+<div class="m-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="m-container m-padding-32 m-center m-black" id="home">
+    <h1 class="m-jumbo"><span class="m-hide-small">Onion </span>^ OR.</h1>
+
+  <div id="anim" style="width:564px;margin:0 auto;position: relative;line-height: 1.4em;"></div>
+  
+  <video id="vid" width="564" autoplay="autoplay" muted>
+    <source src="assets/js/video/1337.mp4" type="video/mp4">
+  </video>
+
+	<script src="assets/js/lottie.js"></script>
+	<script src="assets/js/lottieAttributes.js"></script>
+  <p class="m-hover-opacity m-hover-text-green">Global Blog P2P Network for underground Training 1337.</p>
+    <img src="assets/img/onion-grey.png" alt="1337" class="m-image" width="534" height="836">
+  </header>
+
+  <!-- About Section -->
+  <div class="m-content m-justify m-text-grey m-padding-64" id="about">
+    <h2 class="m-text-light-grey">xor1995 Site Rules</h2>
+    <hr style="width:200px" class="m-opacity">
+    <p style="font-size:30px;color:red;">We will not respond to invite requests which 
+      does not contain this information.</p>
+
+      <p>A few very important things to note:
+       
+      We ask that no content from the forum be leaked out. This is an absolute rule and would result in an immediate ban. This includes any content that you discovered here first.
+       Several (more interesting) sections of the forum will not be immediately accessible upon registration till the member has several posts to their credit and also has garnered a good number of likes.This is in the interest of security, to ensure that only genuine users have access to the more private content.
+       No sharing of your account with anyone else (including your friends) please. Kindly direct them to contact me to create their own account, if they are reversers.
+       Use of a VPS to access the forum is not allowed and is liable to get your account locked. Use of a VPN is fine, as long as it is from a reputable one.
+      Please pay particular attention to the Security Answers that you would be asked to set at the time of registration. They are case-sensitive. Do not set answers that you are likely to forget. Note that we are not able to see your answers and they would be hashed at client side before being uploaded to the server. We will not unlock accounts if you forget the answers. Compromised accounts will remain locked.
+    </p>
+    <h3 class="m-padding-16 m-text-light-grey">My Skills</h3>
+    <p class="m-wide">Reverse Engineering</p>
+    <div class="m-white">
+      <div class="m-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="m-wide">reloaded</p>
+    <div class="m-white">
+      <div class="m-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="m-wide">Decrypt</p>
+    <div class="m-white">
+      <div class="m-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="m-row m-center m-padding-16 m-section m-light-grey">
+      <div class="m-quarter m-section">
+        <span class="m-xlarge">5+</span><br>
+        Partners
+      </div>
+      <div class="m-quarter m-section">
+        <span class="m-xlarge">120+</span><br>
+        Projects Done
+      </div>
+      <div class="m-quarter m-section">
+        <span class="m-xlarge">world+</span><br>
+        Happy Clients
+      </div>
+      <div class="m-quarter m-section">
+        <span class="m-xlarge">50+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="m-button m-light-grey m-padding-large m-section">
+      <i class="mich font-download"></i> Download Infos
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="m-padding-16 m-text-light-grey">Enrollment</h3>
+    <div class="m-row-padding" style="margin:0 -16px">
+      <div class="m-half m-margin-bottom">
+        <ul class="m-ul m-white m-center m-opacity m-hover-opacity-off">
+          <li class="m-dark-grey m-xlarge m-padding-32">Basic</li>
+          <li class="m-padding-16">game analyze</li>
+          <li class="m-padding-16">malware analysis</li>
+          <li class="m-padding-16">Assets</li>
+          <li class="m-padding-16">Mail Support</li>
+          <li class="m-padding-16">
+            <h2>$ 9.99</h2>
+            <span class="m-opacity">per month</span>
+          </li>
+          <li class="m-light-grey m-padding-24">
+            <button class="m-button m-white m-padding-large m-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="m-half">
+        <ul class="m-ul m-white m-center m-opacity m-hover-opacity-off">
+          <li class="m-dark-grey m-xlarge m-padding-32">Pro</li>
+          <li class="m-padding-16">game analyze+</li>
+          <li class="m-padding-16">malware analysis+</li>
+          <li class="m-padding-16">Assets+</li>
+          <li class="m-padding-16">Mail Support+</li>
+          <li class="m-padding-16">
+            <h2>$ 29.99</h2>
+            <span class="m-opacity">per month</span>
+          </li>
+          <li class="m-light-grey m-padding-24">
+            <button class="m-button m-white m-padding-large m-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="m-padding-24 m-text-light-grey">My Reputation</h3>  
+    <img src="assets/img/unkown.jpg" alt="Avatar" class="m-left m-circle m-margin-right" style="width:80px">
+    <p><span class="m-large m-margin-right">hax0r.</span> Reverse Engineer.</p>
+    <p>xor is real deal.</p><br>
+    
+    <img src="assets/img/unkown.jpg" alt="Avatar" class="m-left m-circle m-margin-right" style="width:80px">
+    <p><span class="m-large m-margin-right">R0x0r.</span> CEO at onion.</p>
+    <p>the deal is real xor.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="m-padding-64 m-content" id="photos">
+    <h2 class="m-text-light-grey">Top Downloads</h2>
+    <hr style="width:200px" class="m-opacity">
+
+    <!-- Grid for photos -->
+    <div class="m-row-padding" style="margin:0 -16px">
+      <div class="m-half">
+        <a href="#" target="_blank">
+        <img src="assets/img/game.jpeg" style="width:100%" alt="Game" loading="lazy"></a>
+        <a href="" target="_blank">
+        <img src="assets/img/game1.jpg" style="width:100%" alt="Game" loading="lazy"></a><!--Native image lazy-loading-->
+        <a href="" target="_blank">
+        <img src="assets/img/game2.jpg" style="width:100%" alt="Game" loading="lazy"></a>
+      </div>
+
+      <div class="m-half">
+        <a href="" target="_blank">
+        <img src="assets/img/game3.jpg" style="width:100%" alt="Game Download" loading="lazy"></a>
+        <a href="" target="_blank">
+        <img src="assets/img/game4.jpg" style="width:100%" alt="Game" loading="lazy"></a>
+        <a href="" target="_blank">
+        <img src="assets/img/game5.jpg" style="width:100%" alt="Game" loading="lazy"></a>
+        <a href="" target="_blank">
+        <img src="assets/img/BestGame.jpg" style="width:100%" alt="Game" loading="lazy"></a>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="m-padding-64 m-content m-text-grey" id="contact">
+    <h2 class="m-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="m-opacity">
+
+    <div class="m-section">
+      <p><i class="mich font-map-marker   m-text-white m-xxlarge m-margin-right"></i> Uknown, Everywhere</p>
+      <p><i class="mich font-phone   m-text-white m-xxlarge m-margin-right"></i> Phone: +infinity</p>
+      <p><i class="mich font-envelope   m-text-white m-xxlarge m-margin-right"> </i> Email: jh32yv5zgayyyts3adfe@xor.xor</p>
+    </div><br>
+
+    <p>Let's get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank"><!--future work-->
+      <p><input class="m-input m-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="m-input m-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="m-input m-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="m-input m-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="m-button m-light-grey m-padding-large" type="submit">
+          <i class="mich font-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+    <!-- Footer -->
+
+  <footer class="m-content m-padding-64 m-text-grey m-xlarge">
+    <i class="mich font-dice-four m-hover-opacity"></i>
+    <i class="mich font-database m-hover-opacity"></i>
+    <i class="mich font-draw-polygon m-hover-opacity"></i>
+    <i class="mich font-ellipsis-v m-hover-opacity"></i>
+    <p class="m-medium">Powered by <a href="http://jh32yv5zgayyyts3adfe.xor/" target="_blank" class="m-hover-text-green">^ OR.</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+<div class="container">
+  <canvas id="logo" width="400" height="250"></canvas>
+  <p id="fullScreenButton" onclick="Module.requestFullScreen(true, false)"></p>
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+
+  <script>
+    if (URI.startsWith("file") && URI.includes(".html")){
+      document.getElementById("anim").remove();
+
+  }else {
+    document.getElementById("vid").remove();
+    document.getElementById("anim").style.visibility = "visible";
+  }
+  </script>
+
+  <script>
+            var logos = document.getElementById('logo');
+            var heightRatio = 0.1;
+            logos.style.position='absolute';
+            logos.style.bottom="0px";
+            logos.style.right="0px";
+            logos.onclick = function () {alert('See on Top of Page'),start_function(this)}
+
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+
+            if(!isChrome){
+            let myobj = document.getElementById("progressbar");
+            myobj.remove();
+            let myobj1 = document.getElementById("scrollPath");
+            myobj1.remove();
+            let myobj2 = document.getElementById("percent");
+            myobj2.remove();
+            window.onscroll = function () {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+                } else {
+                header.classList.remove("sticky");
+                }
+              }
+            } 
+          else if(isChrome){
+            var progressbar = document.getElementById("progressbar");
+            var percent = document.getElementById("percent");
+            var totalHeight = document.body.scrollHeight - window.innerHeight;
+            
+            window.onscroll = function () {
+              var progressHeight = (window.pageYOffset / totalHeight) * 100;
+              progressbar.style.height = progressHeight + "%";
+              percent.innerHTML = "Paged Scrolled -> " + Math.round(progressHeight) + "%"
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+                } else {
+                header.classList.remove("sticky");
+                }
+            } 
+          }
+</script>
+  
+  <script>
+    var Module = {
+        onRuntimeInitialized: function() {
+            
+        }, 
+        canvas: (function() {
+            var canvas = document.getElementById('canvas');
+            return canvas;
+            })()
+    };
+
+    var start_function = function(o) {
+        o.style.visibility = "hidden";
+        Module.ccall('mainf', null, null);
+    };
+
+</script>
+<script>
+
+      (function() {
+        var memoryInitializer = 'assets/js/wasm.js.mem';
+        if (typeof Module['locateFile'] === 'function') {
+          memoryInitializer = Module['locateFile'](memoryInitializer);
+        } else if (Module['memoryInitializerPrefixURL']) {
+          memoryInitializer = Module['memoryInitializerPrefixURL'] + memoryInitializer;
+        }
+        var xhr = Module['memoryInitializerRequest'] = new XMLHttpRequest();
+        xhr.open('GET', memoryInitializer, true);
+        xhr.responseType = 'arraybuffer';
+        xhr.send(null);
+      })();
+
+      var script = document.createElement('script');
+      script.src = "assets/js/wasm.js";
+      document.body.appendChild(script);
+
+</script>
+
+  
+</body>
+</html>
