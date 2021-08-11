@@ -5,5 +5,5 @@ Web-server required for fully functionallity but not neccessary(seems on 'github
 https://jotunmichael.github.io/HtmlTorrentLikeFun/ <br/>
 Everything Custom!.
 
-https://console.cloud.google.com/\
+https://console.cloud.google.com/ \
 https://search.google.com/search-console/about
